@@ -57,6 +57,42 @@ header nav a:hover{
 
 .filme-principal .sinopse{
     margin-bottom: 40px;
+    margin-top: 20px;
+    font-size: 1.5rm;
 
 }
 
+.titulo{
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+
+
+.botao {
+    padding: 15px 30px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,.50);
+    color: #FFF;
+    margin-right: 10px;
+    font-size: 12px;
+    border: none;
+    transition: .3s ease all;
+
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.box-filme{
+display: block;
+height: 100%;
+width: 100%;
+margin-top: 20px;
+}

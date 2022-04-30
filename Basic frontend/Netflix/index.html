@@ -6,7 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/main.css">
+
+    <!--Responsividade-->
+
+    <link rel="stylesheet" href="styles/responsive.css">
+    
+    <!--Owl style sheet-->
+
+    <link rel="stylesheet" href="styles/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="styles/owl/owl.theme.default.min.css">
+
+    
+    
+    
     <title>NETFLIX CLONE</title>
+    
 </head>
 
 <body>
@@ -36,12 +50,26 @@
                     ator frustrado,
                     e Chandler, de profissão misteriosa. A turma é completa pela exótica Phoebe. </p>
                 <div class="botoes">
-                    <button role="button" class="botao">ASSISTIR AGORA</button>
-                    <button role="button" class="botao">MAIS INFORMAÇÕES</button>
+                    <button role="button" class="botao"> <i class="fa-solid fa-play"></i>
+                        ASSISTIR AGORA</button>
+                    <button role="button" class="botao"> <i class="fa-solid fa-circle-info"></i>
+                        MAIS INFORMAÇÕES</button>
                 </div>
             </div>
         </div>
     </main>
+
+    <div class="carrosel">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/b99.jpg" alt="B99" >
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/9c1604722e.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
 </body>
 
 </html>
