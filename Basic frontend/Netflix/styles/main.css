@@ -11,8 +11,9 @@
 /*elementos basicos*/
 body{
     background-color: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial' , Times;
     color: white;
+    margin: 10px;
 }
 
 header .container{
@@ -20,7 +21,8 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-right: 10px;
+    font-family: 'Arial' , Times;
+ 
 
 }
 
@@ -41,24 +43,33 @@ header nav a:hover{
 
 /*filme principal*/
 
-.filme-principal{
-    font-size: 16px;
+.titulo{
+    margin-left: 20px;
+}
+.rock-main{
+    color: #eeeee4;
+    
+    font-size: 18px;
     background: -o-linear-gradient(rgba(0,0,0,.50),
      rgba(0,0,0,.50) 100%);
-    background-image: url('/img/friends.jpg');
-    height: 500px;
+    background-image: url('/img/mainimage.png');
+    height: 500px ;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:end;
     align-items: flex-start;
+    
+    
 
 }
 
-.filme-principal .sinopse{
+.rock-main .sinopse{
     margin-bottom: 40px;
     margin-top: 20px;
     font-size: 1.5rm;
+    font-weight:500 ;
+    margin-left: 20px;
 
 }
 
@@ -67,7 +78,10 @@ header nav a:hover{
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
-
+.subtitulo{
+    font-family: 'Arial Black' , Times;
+    margin-top: 15px;
+}
 
 .botao {
     padding: 15px 30px;
@@ -78,6 +92,9 @@ header nav a:hover{
     font-size: 12px;
     border: none;
     transition: .3s ease all;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 20px;
 
 }
 
