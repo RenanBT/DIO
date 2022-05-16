@@ -47,11 +47,11 @@ header nav a:hover{
     margin-left: 20px;
 }
 .rock-main{
-    color: #eeeee4;
+    color: darkcyan;
     
     font-size: 18px;
-    background: -o-linear-gradient(rgba(0,0,0,.50),
-     rgba(0,0,0,.50) 100%);
+   
+     
     background-image: url('/img/mainimage.png');
     height: 500px ;
     background-size: cover;
@@ -70,6 +70,7 @@ header nav a:hover{
     font-size: 1.5rm;
     font-weight:500 ;
     margin-left: 20px;
+   
 
 }
 
