@@ -18,7 +18,7 @@ public interface IAlunoService {
 
   /**
    * Retorna um Aluno que está no banco de dados de acordo com seu Id.
-   * @param id id do Aluno que será exibido.
+   * @param id do Aluno que será exibido.
    * @return Aluno de acordo com o Id fornecido.
    */
   Aluno get(Long id);
@@ -31,7 +31,7 @@ public interface IAlunoService {
 
   /**
    * Atualiza o Aluno.
-   * @param id id do Aluno que será atualizado.
+   * @param id do Aluno que será atualizado.
    * @param formUpdate formulário referente aos dados necessários para atualização do Aluno
    * no banco de dados.
    * @return Aluno recém-atualizado.
@@ -40,13 +40,13 @@ public interface IAlunoService {
 
   /**
    * Deleta um Aluno específico.
-   * @param id id do Aluno que será removido.
+   * @param id do Aluno que será removido.
    */
   void delete(Long id);
 
   /**
    *
-   * @param id id do aluno que será recuperada a lista de avaliações
+   * @param id do aluno que será recuperada a lista de avaliações
    * @return uma lista com todas as avaliações do aluno de acordo com o Id
    */
   List<AvaliacaoFisica> getAllAvaliacaoFisicaId(Long id);

@@ -5,46 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adf2222b-14ea-45cb-92ea-89b2b38dbc0e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jpb/persistence-units.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/AcademiaDigitalApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/controller/AlunoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/controller/AvaliacaoFisicaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/controller/MatriculaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/entity/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/entity/AvaliacaoFisica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/entity/Matricula.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/entity/form/AlunoForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/entity/form/AlunoUpdateForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/entity/form/AvaliacaoFisicaForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/entity/form/AvaliacaoFisicaUpdateForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/entity/form/MatriculaForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/infra/jackson/ObjectMapperConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/infra/jackson/deser/LocalDateDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/infra/jackson/deser/LocalDateTimeDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/infra/jackson/ser/LocalDateSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/infra/jackson/ser/LocalDateTimeSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/infra/utils/JavaTimeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/repository/AlunoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/repository/AvaliacaoFisicaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/repository/MatriculaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/service/IAlunoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/service/IAvaliacaoFisicaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/service/IMatriculaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/service/impl/AlunoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/service/impl/AvaliacaoFisicaServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/service/impl/MatriculaServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/me/dio/academia/digital/AcademiaDigitalApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/entity/form/AlunoForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/entity/form/AlunoForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/entity/form/AvaliacaoFisicaForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/entity/form/AvaliacaoFisicaForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/repository/MatriculaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/repository/MatriculaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/service/IAlunoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/dio/academia/digital/service/IAlunoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

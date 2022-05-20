@@ -1,7 +1,5 @@
 <h1> Projeto Academia Digital</h1>
 <p> Este projeto foi desenvolvido por Renan Betereli, com base no projeto "Conhecendo o Projeto Spring Data JPA na Prática" por Cami-la, professora da Digital Innovation One
-pela .
-
 </p>
 
 
