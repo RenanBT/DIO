@@ -5,9 +5,11 @@ const globalStyle = createGlobalStyle`
   * {
     outline: none;
     box-sizing: border-box;
+    
   }
   body {
     line-height: normal;
+     
   }
   html, body {
     width: 100%;
